@@ -73,7 +73,7 @@ public class Main {
                 count++;
             }
         }
-            return totalSalary(list) / count;
+        return totalSalary(list) / count;
     }
 
     public static String nameToString(Employee[] list) {
@@ -88,7 +88,7 @@ public class Main {
 
     public static void indexSalary(Employee[] list, int procent) {
         for (int i = 0; i < list.length; i++) {
-            if(list[i] != null) {
+            if (list[i] != null) {
                 list[i].indexSalary(procent);
             }
         }
@@ -160,7 +160,7 @@ public class Main {
     public static String underNumber(Employee[] list, int number) {
         String desiredSalary = "Зарплата менее " + number + " RUB:\n";
         for (int i = 0; i < list.length; i++) {
-            if (list[i] != null && list[i].getSalary() < number){
+            if (list[i] != null && list[i].getSalary() < number) {
                 desiredSalary = desiredSalary + list[i].toString();
             }
         }
@@ -199,7 +199,6 @@ public class Main {
 
         System.out.println("list[5].getName() = " + list[5].getName());
         System.out.println("list[5].toString() = " + list[5].toString());
-        System.out.println(listToString(list));
         indexSalary(list, 10);
         System.out.println(listToString(list));
         System.out.println("totalSalary(list) = " + totalSalary(list));

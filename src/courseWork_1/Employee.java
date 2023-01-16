@@ -1,7 +1,7 @@
 package courseWork_1;
 
 public class Employee {
-    //    Создать класс Employee, который содержит информацию о Ф.И.О., отделе и зарплате сотрудника.
+//    Создать класс Employee, который содержит информацию о Ф.И.О., отделе и зарплате сотрудника.
 //    Отделы для простоты должны быть названы от 1 до 5.
     private final String name;
     private int department;
