@@ -8,16 +8,15 @@ public class Employee {
     private double salary;
     private int id;
     //    Добавить статическую переменную-счетчик, которая будет отвечать за id.
-    public static int coint = 0;
+    public static int count = 0;
 
     public Employee(String name, int department, double salary) {
         this.name = name;
         this.department = department;
         this.salary = salary;
-        coint++;
-        this.id = coint;
+        count++;
+        this.id = count;
     }
-
 
     public String getName() {
         return this.name;
