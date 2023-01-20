@@ -1,5 +1,7 @@
 package courseWork_1;
 
+import courseWork_1.EmployeeBook;
+
 public class Employee {
 //    Создать класс Employee, который содержит информацию о Ф.И.О., отделе и зарплате сотрудника.
 //    Отделы для простоты должны быть названы от 1 до 5.
@@ -38,7 +40,7 @@ public class Employee {
         this.department = department;
     }
 
-    public void setSalary(int salary) {
+    public void setSalary(double salary) {
         this.salary = salary;
     }
 
